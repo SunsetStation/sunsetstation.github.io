@@ -1,4 +1,4 @@
-$.getJSON("https://api.github.com/repos/Persistent-SS13/Persistent-Bay/pulls?state=closed", function(data) {
+$.getJSON("https://api.github.com/repos/SunsetStation/SunsetStation/pulls?state=closed", function(data) {
 
     function displayItems(items) {
         if(!items.length) { return; }
