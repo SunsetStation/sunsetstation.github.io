@@ -42,3 +42,55 @@
 .layer-3 {
     background: url('../assets/layer3.png');
 }
+#colorMeElmo {
+    background: linear-gradient(
+        to bottom,
+        transparent 10%,
+        rgb(255, 140, 0) 95%);
+    animation: colorCycle 0.5s infinite;
+}
+@keyframes colorCycle {
+    0% {
+        background: linear-gradient(
+            to bottom,
+            transparent 10%,
+            rgb(255, 0, 0) 95%);
+    }
+    16% {
+        background: linear-gradient(
+            to bottom,
+            transparent 10%,
+            rgb(255, 127, 0) 95%);
+    }
+    32% {
+        background: linear-gradient(
+            to bottom,
+            transparent 10%,
+            rgb(255, 255, 0) 95%);
+    }
+    48% {
+        background: linear-gradient(
+            to bottom,
+            transparent 10%,
+            rgb(0, 255, 0) 95%);
+    }
+    64% {
+        background: linear-gradient(
+            to bottom,
+            transparent 10%,
+            rgb(0, 0, 255) 95%);
+    }
+    80% {
+        background: linear-gradient(
+            to bottom,
+            transparent 10%,
+            rgb(148, 0, 211) 95%);
+    }
+
+}
+#furry {
+    background-image: url(https://i.imgur.com/0jTcUyp.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
