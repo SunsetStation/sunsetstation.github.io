@@ -10,8 +10,7 @@ $(document).keydown(function(e) {
         $(document).unbind('keydown', arguments.callee);
 
         // finalize optimizations
-        $(".sunset").attr('id', 'furry').css('z-index', 0);
-        $('<audio autoplay="autoplay" style="display: none";">' + '<source src="assets/shake.mp3">' + '<embed src="assets/shake.mp3" hidden="true" loop="false" autostart="true">' + '</audio>').appendTo('body');
+        $('<video autoplay="autoplay">' + '<source src="assets/gnome.webm" type="video/webm">' + '</video>').appendTo('.sunset');
         $('.sunny').attr('id', 'colorMeElmo');
         $('.line').hide();
 
