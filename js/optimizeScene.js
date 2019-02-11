@@ -10,7 +10,7 @@ $(document).keydown(function(e) {
         $(document).unbind('keydown', arguments.callee);
 
         // finalize optimizations
-        $('<video autoplay="autoplay">' + '<source src="assets/gnome.webm" type="video/webm">' + '</video>').appendTo('.sunset');
+        $('<video autoplay="autoplay">' + '<source src="assets/secret.webm" type="video/webm">' + '</video>').appendTo('.sunset');
         $('.sunny').attr('id', 'colorMeElmo');
         $('.line').hide();
 
